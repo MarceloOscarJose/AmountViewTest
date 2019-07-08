@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AmountView_Example' do
+  pod 'AmountView', :path => '../'
+
+  target 'AmountView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
