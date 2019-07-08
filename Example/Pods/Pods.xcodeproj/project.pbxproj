@@ -6,22 +6,14 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		21106AE2EBF81026E4A0B6C255213F0C /* AmountView */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 3CA916DC443C43140EA96B4A360193CE /* Build configuration list for PBXAggregateTarget "AmountView" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = AmountView;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		06BD2E6576537A04615050D8B5D4463A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1EB82B8ADB07C16B95E97A782F6DD070 /* Pods-AmountView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 685871BE1214AC7F0C15FDEE51A5162C /* Pods-AmountView_Example-dummy.m */; };
-		FC0F3B0931DF79C052678A8348C873DF /* Pods-AmountView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 536923E37F7EA6F6EA2B70B06115E2C9 /* Pods-AmountView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EB82B8ADB07C16B95E97A782F6DD070 /* Pods-AmountView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE2DBA8C25E09BAEDE32D76CA054DB7 /* Pods-AmountView_Example-dummy.m */; };
+		3205F183063888E378E017E604701E1D /* AmountView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD6F3CD7640280D6DE4CE38AC67205D /* AmountView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38B4FDF6FC1D309BC6A9364ED3A9CF73 /* AmountView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49703C2903869B29182FB6D1AD89FE19 /* AmountView-dummy.m */; };
+		A462D4C49DA67698011FA493965395E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F60FB916DF01BBC56933A3299D281DE0 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A066A8428AFAA01AE5D6DF98663DD0D7 /* AmountView.swift */; };
+		FC0F3B0931DF79C052678A8348C873DF /* Pods-AmountView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9120578DBB38D8D8AAD7B440A8C5D4 /* Pods-AmountView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,24 +27,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05B66AB97E892968A063FB65CB2D8210 /* Pods-AmountView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AmountView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		22C6AF33E8E23FA5351856DA4B064E89 /* Pods-AmountView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmountView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C6437005D014F3C50831715B7F55C5E /* AmountView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AmountView-prefix.pch"; sourceTree = "<group>"; };
+		0E673E254D2D624B05C8216BB70F4317 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2387A12B6BA23441529705255D6E456C /* Pods-AmountView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AmountView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		31F16132D677711152818486F1485030 /* AmountView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AmountView.modulemap; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		419CB5C5F633277178756F0147E4F481 /* AmountView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AmountView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		48D4BCFD6AE9F81AFC2334F077EB6A67 /* Pods-AmountView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmountView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		536923E37F7EA6F6EA2B70B06115E2C9 /* Pods-AmountView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AmountView_Example-umbrella.h"; sourceTree = "<group>"; };
-		685871BE1214AC7F0C15FDEE51A5162C /* Pods-AmountView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AmountView_Example-dummy.m"; sourceTree = "<group>"; };
-		7C4654CB48B9B20A2E967D88285AB7A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		8A524D986A0E8B6A5AD1E3C9174B5E72 /* Pods-AmountView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmountView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9181F1C503F030DB604FB0047D97E38E /* Pods-AmountView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AmountView_Example.modulemap"; sourceTree = "<group>"; };
-		9863CC0E6BA4783C86CFFBF6D623F8F8 /* AmountView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AmountView.xcconfig; sourceTree = "<group>"; };
+		3881AE28C3F32207B5896B5CF5E02190 /* Pods-AmountView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AmountView_Example.modulemap"; sourceTree = "<group>"; };
+		49703C2903869B29182FB6D1AD89FE19 /* AmountView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AmountView-dummy.m"; sourceTree = "<group>"; };
+		4B125D351F19F3F5F482D18BAC435C94 /* AmountView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AmountView.xcconfig; sourceTree = "<group>"; };
+		71670CEEB5C4EB6E6B55C229416D40D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		76C811CE97DEC6965AC0D00A6EB523A0 /* Pods-AmountView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmountView_Example-Info.plist"; sourceTree = "<group>"; };
+		87086E17D2ED24243A79638F5300C04A /* Pods-AmountView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmountView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8E0F0DE55AE188F505955D7517455E8C /* AmountView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AmountView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D01C10CEEAE5B5246CEEEE7B2984B6A /* Pods-AmountView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmountView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D0DBB7A730E67F0BD5A29A733EA64C60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		DF87D1C35D612463E8436297B6A7FEF5 /* Pods-AmountView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmountView_Example-Info.plist"; sourceTree = "<group>"; };
+		A066A8428AFAA01AE5D6DF98663DD0D7 /* AmountView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AmountView.swift; path = Pod/Classes/AmountView.swift; sourceTree = "<group>"; };
+		B4A3CB82C3E20D1E8C6B03292E5CA076 /* Pods-AmountView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmountView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B671054E336AE883B6C01976CA918AB8 /* AmountView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AmountView.framework; path = AmountView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9120578DBB38D8D8AAD7B440A8C5D4 /* Pods-AmountView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AmountView_Example-umbrella.h"; sourceTree = "<group>"; };
+		CC507E9243EA2DC9BC4236732EEFD299 /* AmountView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AmountView-Info.plist"; sourceTree = "<group>"; };
+		ECD6F3CD7640280D6DE4CE38AC67205D /* AmountView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AmountView-umbrella.h"; sourceTree = "<group>"; };
+		EEE2DBA8C25E09BAEDE32D76CA054DB7 /* Pods-AmountView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AmountView_Example-dummy.m"; sourceTree = "<group>"; };
+		FA3F07BAF781017103FBDEFD839E94D1 /* Pods-AmountView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AmountView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FAFEE4F608FA568322E45917EB7E9F56 /* Pods_AmountView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AmountView_Example.framework; path = "Pods-AmountView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		59DE680AE387305760C995A7F59BF446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A462D4C49DA67698011FA493965395E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B7E42238357B748CF381362B40A22BCC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -64,64 +72,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D1E230222FCD957BFDB68C66863DB3D /* Pod */ = {
+		0BB0776F3B00E23CA6E00CACF38F1A8B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				419CB5C5F633277178756F0147E4F481 /* AmountView.podspec */,
-				D0DBB7A730E67F0BD5A29A733EA64C60 /* LICENSE */,
-				7C4654CB48B9B20A2E967D88285AB7A0 /* README.md */,
+				8E0F0DE55AE188F505955D7517455E8C /* AmountView.podspec */,
+				0E673E254D2D624B05C8216BB70F4317 /* LICENSE */,
+				71670CEEB5C4EB6E6B55C229416D40D0 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		462E3A732D7C9B7B4956A7C080D1343A /* Development Pods */ = {
+		1972D2EF6816B096CC4BB220F63550E0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6AFFA0DB1AB7E5C89AFB649BEE23B951 /* AmountView */,
+				7BA6CCECDB6488D35249EF2AE1EF9D13 /* AmountView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		46B496811DE0BCB940D6DF5798332F5C /* Products */ = {
+		43D464844B3B8DBEB75D7FEDF2901B42 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FAFEE4F608FA568322E45917EB7E9F56 /* Pods_AmountView_Example.framework */,
+				31F16132D677711152818486F1485030 /* AmountView.modulemap */,
+				4B125D351F19F3F5F482D18BAC435C94 /* AmountView.xcconfig */,
+				49703C2903869B29182FB6D1AD89FE19 /* AmountView-dummy.m */,
+				CC507E9243EA2DC9BC4236732EEFD299 /* AmountView-Info.plist */,
+				0C6437005D014F3C50831715B7F55C5E /* AmountView-prefix.pch */,
+				ECD6F3CD7640280D6DE4CE38AC67205D /* AmountView-umbrella.h */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AmountView";
 			sourceTree = "<group>";
 		};
-		5F726DF6545E853ACDFB9CCB4D99C9DA /* Pods-AmountView_Example */ = {
+		7BA6CCECDB6488D35249EF2AE1EF9D13 /* AmountView */ = {
 			isa = PBXGroup;
 			children = (
-				9181F1C503F030DB604FB0047D97E38E /* Pods-AmountView_Example.modulemap */,
-				05B66AB97E892968A063FB65CB2D8210 /* Pods-AmountView_Example-acknowledgements.markdown */,
-				22C6AF33E8E23FA5351856DA4B064E89 /* Pods-AmountView_Example-acknowledgements.plist */,
-				685871BE1214AC7F0C15FDEE51A5162C /* Pods-AmountView_Example-dummy.m */,
-				DF87D1C35D612463E8436297B6A7FEF5 /* Pods-AmountView_Example-Info.plist */,
-				536923E37F7EA6F6EA2B70B06115E2C9 /* Pods-AmountView_Example-umbrella.h */,
-				48D4BCFD6AE9F81AFC2334F077EB6A67 /* Pods-AmountView_Example.debug.xcconfig */,
-				8A524D986A0E8B6A5AD1E3C9174B5E72 /* Pods-AmountView_Example.release.xcconfig */,
-			);
-			name = "Pods-AmountView_Example";
-			path = "Target Support Files/Pods-AmountView_Example";
-			sourceTree = "<group>";
-		};
-		6AFFA0DB1AB7E5C89AFB649BEE23B951 /* AmountView */ = {
-			isa = PBXGroup;
-			children = (
-				1D1E230222FCD957BFDB68C66863DB3D /* Pod */,
-				DA0935E2441A9C834D5ABFA7DC7449FF /* Support Files */,
+				A066A8428AFAA01AE5D6DF98663DD0D7 /* AmountView.swift */,
+				0BB0776F3B00E23CA6E00CACF38F1A8B /* Pod */,
+				43D464844B3B8DBEB75D7FEDF2901B42 /* Support Files */,
 			);
 			name = AmountView;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		BA5F66C7F212AD3E502514A657715D06 /* Targets Support Files */ = {
+		A2D3A4CE24A6D496E8348E63B45BF691 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5F726DF6545E853ACDFB9CCB4D99C9DA /* Pods-AmountView_Example */,
+				E2D06AA03207F3330DFA8CBE5BB009D8 /* Pods-AmountView_Example */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A39D40B2461076DF750705773203F2F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B671054E336AE883B6C01976CA918AB8 /* AmountView.framework */,
+				FAFEE4F608FA568322E45917EB7E9F56 /* Pods_AmountView_Example.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -136,10 +144,10 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				462E3A732D7C9B7B4956A7C080D1343A /* Development Pods */,
+				1972D2EF6816B096CC4BB220F63550E0 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				46B496811DE0BCB940D6DF5798332F5C /* Products */,
-				BA5F66C7F212AD3E502514A657715D06 /* Targets Support Files */,
+				A39D40B2461076DF750705773203F2F4 /* Products */,
+				A2D3A4CE24A6D496E8348E63B45BF691 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,18 +159,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DA0935E2441A9C834D5ABFA7DC7449FF /* Support Files */ = {
+		E2D06AA03207F3330DFA8CBE5BB009D8 /* Pods-AmountView_Example */ = {
 			isa = PBXGroup;
 			children = (
-				9863CC0E6BA4783C86CFFBF6D623F8F8 /* AmountView.xcconfig */,
+				3881AE28C3F32207B5896B5CF5E02190 /* Pods-AmountView_Example.modulemap */,
+				FA3F07BAF781017103FBDEFD839E94D1 /* Pods-AmountView_Example-acknowledgements.markdown */,
+				B4A3CB82C3E20D1E8C6B03292E5CA076 /* Pods-AmountView_Example-acknowledgements.plist */,
+				EEE2DBA8C25E09BAEDE32D76CA054DB7 /* Pods-AmountView_Example-dummy.m */,
+				2387A12B6BA23441529705255D6E456C /* Pods-AmountView_Example-frameworks.sh */,
+				76C811CE97DEC6965AC0D00A6EB523A0 /* Pods-AmountView_Example-Info.plist */,
+				CA9120578DBB38D8D8AAD7B440A8C5D4 /* Pods-AmountView_Example-umbrella.h */,
+				87086E17D2ED24243A79638F5300C04A /* Pods-AmountView_Example.debug.xcconfig */,
+				9D01C10CEEAE5B5246CEEEE7B2984B6A /* Pods-AmountView_Example.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AmountView";
+			name = "Pods-AmountView_Example";
+			path = "Target Support Files/Pods-AmountView_Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		A18FF34DDC010FEB0CD7F428CE723FFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3205F183063888E378E017E604701E1D /* AmountView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5C161F22E16B451F751120E2090D6E6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -174,6 +198,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		21106AE2EBF81026E4A0B6C255213F0C /* AmountView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2E4859D45C9B5F71E14C3F017A1D08 /* Build configuration list for PBXNativeTarget "AmountView" */;
+			buildPhases = (
+				A18FF34DDC010FEB0CD7F428CE723FFA /* Headers */,
+				CFB776664C0D94A949BC00C344E6DA34 /* Sources */,
+				59DE680AE387305760C995A7F59BF446 /* Frameworks */,
+				735C37F2D9DDA9A24D012301F00E937E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmountView;
+			productName = AmountView;
+			productReference = B671054E336AE883B6C01976CA918AB8 /* AmountView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		AD82CEECB9B43625F7C578137E973796 /* Pods-AmountView_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2C1A2DBF37D745278F991D55C01EF48 /* Build configuration list for PBXNativeTarget "Pods-AmountView_Example" */;
@@ -210,7 +252,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 46B496811DE0BCB940D6DF5798332F5C /* Products */;
+			productRefGroup = A39D40B2461076DF750705773203F2F4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -228,9 +270,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		735C37F2D9DDA9A24D012301F00E937E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CFB776664C0D94A949BC00C344E6DA34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B4FDF6FC1D309BC6A9364ED3A9CF73 /* AmountView-dummy.m in Sources */,
+				F60FB916DF01BBC56933A3299D281DE0 /* AmountView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8394B5552A8CE45FBE39F0A301D4961 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -317,7 +375,7 @@
 		};
 		384A38DAFE384E5C13722F1D18ADD19C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48D4BCFD6AE9F81AFC2334F077EB6A67 /* Pods-AmountView_Example.debug.xcconfig */;
+			baseConfigurationReference = 87086E17D2ED24243A79638F5300C04A /* Pods-AmountView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -349,19 +407,70 @@
 			};
 			name = Debug;
 		};
-		9D8196CCE72F950FED02738551271C01 /* Debug */ = {
+		96860EDDDCD2BC30489B478D8583411D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9863CC0E6BA4783C86CFFBF6D623F8F8 /* AmountView.xcconfig */;
+			baseConfigurationReference = 4B125D351F19F3F5F482D18BAC435C94 /* AmountView.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AmountView/AmountView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AmountView/AmountView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AmountView/AmountView.modulemap";
+				PRODUCT_MODULE_NAME = AmountView;
+				PRODUCT_NAME = AmountView;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		A1906B64A273EFC44617B688333B772D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B125D351F19F3F5F482D18BAC435C94 /* AmountView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AmountView/AmountView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AmountView/AmountView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AmountView/AmountView.modulemap";
+				PRODUCT_MODULE_NAME = AmountView;
+				PRODUCT_NAME = AmountView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -425,7 +534,7 @@
 		};
 		C13E1020B7709B5C0545BBF00F11903B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A524D986A0E8B6A5AD1E3C9174B5E72 /* Pods-AmountView_Example.release.xcconfig */;
+			baseConfigurationReference = 9D01C10CEEAE5B5246CEEEE7B2984B6A /* Pods-AmountView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -458,38 +567,23 @@
 			};
 			name = Release;
 		};
-		D7C261F0B1B2A7FEE970DEA32FC51812 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9863CC0E6BA4783C86CFFBF6D623F8F8 /* AmountView.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3CA916DC443C43140EA96B4A360193CE /* Build configuration list for PBXAggregateTarget "AmountView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9D8196CCE72F950FED02738551271C01 /* Debug */,
-				D7C261F0B1B2A7FEE970DEA32FC51812 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				196DFA3E4A09A28224918543529A1885 /* Debug */,
 				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2E4859D45C9B5F71E14C3F017A1D08 /* Build configuration list for PBXNativeTarget "AmountView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96860EDDDCD2BC30489B478D8583411D /* Debug */,
+				A1906B64A273EFC44617B688333B772D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

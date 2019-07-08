@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## AmountView
 
-Copyright (c) 2019 MarceloOscarJose <marcelo.oscar.jose@gmail.com>
+Copyright (c) 2018 MarceloOscarJose <marcelo.oscar.jose@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
