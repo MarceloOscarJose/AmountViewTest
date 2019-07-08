@@ -1,0 +1,16 @@
+PODS:
+  - AmountView (1.0.1)
+
+DEPENDENCIES:
+  - AmountView (from `../`)
+
+EXTERNAL SOURCES:
+  AmountView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AmountView: d9c493f5e1b2fd2b7ea6f8761ff0cfd641d9946a
+
+PODFILE CHECKSUM: 8b628ae4d48385135632efdd8655d38d64b0887a
+
+COCOAPODS: 1.7.2

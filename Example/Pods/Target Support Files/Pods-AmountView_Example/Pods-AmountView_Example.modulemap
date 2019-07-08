@@ -1,0 +1,6 @@
+framework module Pods_AmountView_Example {
+  umbrella header "Pods-AmountView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

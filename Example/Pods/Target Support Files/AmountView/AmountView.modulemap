@@ -1,0 +1,6 @@
+framework module AmountView {
+  umbrella header "AmountView-umbrella.h"
+
+  export *
+  module * { export * }
+}

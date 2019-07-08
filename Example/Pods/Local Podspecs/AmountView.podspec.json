@@ -1,0 +1,24 @@
+{
+  "name": "AmountView",
+  "version": "1.0.1",
+  "summary": "AmountView - Amount View component",
+  "homepage": "https://github.com/MarceloOscarJose/AmountView",
+  "authors": {
+    "Marcelo José": "marcelo.oscar.jose@gmail.com"
+  },
+  "source": {
+    "git": "git@github.com:MarceloOscarJose/AmountView.git",
+    "tag": "1.0.1"
+  },
+  "license": "none",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "requires_arc": true,
+  "swift_versions": "5",
+  "source_files": "Pod/Classes/**/*",
+  "resources": [
+    "Pod/*.xcassets"
+  ],
+  "swift_version": "5"
+}
