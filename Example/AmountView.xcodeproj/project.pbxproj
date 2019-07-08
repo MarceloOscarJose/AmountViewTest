@@ -50,7 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec */,
-				607FACD21AFB9204008FA782 /* Example */,
+				607FACD21AFB9204008FA782 /* AmountView */,
 				607FACD11AFB9204008FA782 /* Products */,
 				81A454B7177411F27889642B /* Pods */,
 				F6AAAD657290CDB82CDACB29 /* Frameworks */,
@@ -65,9 +65,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example */ = {
+		607FACD21AFB9204008FA782 /* AmountView */ = {
 			isa = PBXGroup;
 			children = (
+				9C8A8F9222D381CC00571AB8 /* Resources */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -75,7 +76,7 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			path = Example;
+			path = AmountView;
 			sourceTree = "<group>";
 		};
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
@@ -105,6 +106,13 @@
 				7606705489D99635D3ABD6AD /* Pods-AmountView_Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		9C8A8F9222D381CC00571AB8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		F6AAAD657290CDB82CDACB29 /* Frameworks */ = {
