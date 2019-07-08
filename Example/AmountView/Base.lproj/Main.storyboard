@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="AmountView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="MainViewController" customModule="AmountView_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -212,7 +212,7 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RNC-D1-LA8">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RNC-D1-LA8" customClass="AmountView" customModule="AmountView">
                                 <rect key="frame" x="0.0" y="20" width="375" height="260"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
@@ -228,6 +228,21 @@
                             <constraint firstAttribute="trailing" secondItem="RNC-D1-LA8" secondAttribute="trailing" id="zfY-1Z-Bhd"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="amountView" destination="RNC-D1-LA8" id="kxW-fb-1N7"/>
+                        <outlet property="configurationStack" destination="ZsJ-ly-bTU" id="XIp-dH-SsW"/>
+                        <outlet property="decimals" destination="MNT-ez-IBH" id="yJR-J4-h92"/>
+                        <outlet property="horizontalAlign" destination="g7u-up-bz0" id="hzt-3V-hH2"/>
+                        <outlet property="initValue" destination="9LN-Bb-kjg" id="uhH-Y5-3Bg"/>
+                        <outlet property="invalidColor" destination="u43-0t-n3z" id="5D2-r7-b2V"/>
+                        <outlet property="mainView" destination="lQ0-N1-1Dc" id="bMD-SH-dgm"/>
+                        <outlet property="maxFontSize" destination="lzt-ba-lwF" id="jLj-bi-hYe"/>
+                        <outlet property="maxValue" destination="cqt-98-0OE" id="S7B-U4-e1i"/>
+                        <outlet property="minValue" destination="dz6-Mz-6I9" id="QOo-zH-hhg"/>
+                        <outlet property="normalColor" destination="Vke-ER-zmU" id="9dj-cz-Kzv"/>
+                        <outlet property="prefix" destination="EUT-UG-W6d" id="4Ea-fi-vSl"/>
+                        <outlet property="verticalAlign" destination="Jtl-mf-5wY" id="riW-cP-Y1V"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

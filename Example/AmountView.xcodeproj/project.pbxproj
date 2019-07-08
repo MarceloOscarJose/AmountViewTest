@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
+		607FACD81AFB9204008FA782 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* MainViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		9C8A8F9422D3830600571AB8 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 9C8A8F9322D3830600571AB8 /* Resources */; };
+		9C4A9F5F22D3864A0085E0FB /* TTNorms-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C4A9F5C22D3864A0085E0FB /* TTNorms-Bold.otf */; };
+		9C4A9F6022D3864A0085E0FB /* TTNorms-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C4A9F5D22D3864A0085E0FB /* TTNorms-Regular.otf */; };
+		9C4A9F6122D3864A0085E0FB /* TTNorms-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C4A9F5E22D3864A0085E0FB /* TTNorms-Medium.otf */; };
 		C365CF117DB7B316BEE8AB5C /* Pods_AmountView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD3D6721706C3FEA8962677 /* Pods_AmountView_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,14 +26,16 @@
 		607FACD01AFB9204008FA782 /* AmountView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmountView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7606705489D99635D3ABD6AD /* Pods-AmountView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmountView_Tests.release.xcconfig"; path = "Target Support Files/Pods-AmountView_Tests/Pods-AmountView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7DD3D6721706C3FEA8962677 /* Pods_AmountView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmountView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E0BA964A1C8145C847EC1BE /* Pods-AmountView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmountView_Example.release.xcconfig"; path = "Target Support Files/Pods-AmountView_Example/Pods-AmountView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9C8A8F9322D3830600571AB8 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		9C4A9F5C22D3864A0085E0FB /* TTNorms-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TTNorms-Bold.otf"; path = "Resources/TTNorms-Bold.otf"; sourceTree = "<group>"; };
+		9C4A9F5D22D3864A0085E0FB /* TTNorms-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TTNorms-Regular.otf"; path = "Resources/TTNorms-Regular.otf"; sourceTree = "<group>"; };
+		9C4A9F5E22D3864A0085E0FB /* TTNorms-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TTNorms-Medium.otf"; path = "Resources/TTNorms-Medium.otf"; sourceTree = "<group>"; };
 		AC95BF1C96FFFBE219124DDF /* AmountView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AmountView.podspec; path = ../AmountView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C30E7A848A15FDC09B68A4A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,12 +74,11 @@
 		607FACD21AFB9204008FA782 /* AmountView */ = {
 			isa = PBXGroup;
 			children = (
-				9C8A8F9322D3830600571AB8 /* Resources */,
+				9C4A9F5B22D3862D0085E0FB /* Resources */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				607FACD71AFB9204008FA782 /* MainViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			path = AmountView;
@@ -108,6 +111,17 @@
 				7606705489D99635D3ABD6AD /* Pods-AmountView_Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		9C4A9F5B22D3862D0085E0FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				9C4A9F5C22D3864A0085E0FB /* TTNorms-Bold.otf */,
+				9C4A9F5E22D3864A0085E0FB /* TTNorms-Medium.otf */,
+				9C4A9F5D22D3864A0085E0FB /* TTNorms-Regular.otf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		F6AAAD657290CDB82CDACB29 /* Frameworks */ = {
@@ -153,7 +167,6 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = US3X4PNDQR;
 						LastSwiftMigration = 1020;
 					};
 				};
@@ -181,10 +194,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C8A8F9422D3830600571AB8 /* Resources in Resources */,
+				9C4A9F5F22D3864A0085E0FB /* TTNorms-Bold.otf in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				9C4A9F6122D3864A0085E0FB /* TTNorms-Medium.otf in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				9C4A9F6022D3864A0085E0FB /* TTNorms-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				607FACD81AFB9204008FA782 /* MainViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,12 +388,12 @@
 			baseConfigurationReference = 0BCB98C937E3D6212013DCC8 /* Pods-AmountView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = US3X4PNDQR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AmountView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rappi.AmountView-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -389,12 +404,12 @@
 			baseConfigurationReference = 8E0BA964A1C8145C847EC1BE /* Pods-AmountView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = US3X4PNDQR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AmountView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rappi.AmountView-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
