@@ -23,15 +23,15 @@ extension AmountView {
         animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
         animation.duration = 0.21
         animation.values = [7, -12, 7, -2, 0.0]
-        self.digitsCollectionView.layer.add(animation, forKey: "shake")
+        self.amountLabel.layer.add(animation, forKey: "shake")
     }
 
     func bounce() {
         UIView.animate(withDuration: 0.1, animations: {
-            self.digitsCollectionView.transform = CGAffineTransform(scaleX: 0.9, y: 0.9)
+            self.amountLabel.transform = CGAffineTransform(scaleX: 0.9, y: 0.9)
         }, completion: { _ in
             UIView.animate(withDuration: 0.1) {
-                self.digitsCollectionView.transform = CGAffineTransform.identity
+                self.amountLabel.transform = CGAffineTransform.identity
             }
         })
     }

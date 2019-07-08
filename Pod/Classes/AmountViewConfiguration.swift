@@ -11,7 +11,7 @@ import UIKit
 open class AmountViewConfiguration: NSObject {
 
     public var verticalAlign: AmountViewVerticalAlign = .middle
-    public var horizontalAlign: AmountViewHorizontalAlign = .center
+    public var horizontalAlign: NSTextAlignment = .center
     public var invalidAnimation: AmountViewInvalidAnimation = .shake
 
     public var userNativeKeyboard: Bool = true
@@ -35,12 +35,6 @@ public enum AmountViewVerticalAlign {
     case top
     case middle
     case bottom
-}
-
-public enum AmountViewHorizontalAlign {
-    case left
-    case center
-    case right
 }
 
 public enum AmountViewInvalidAnimation {

@@ -18,6 +18,7 @@ public class AmountView: UIView {
         amountLabel.font = self.configuration.digitFont
         amountLabel.numberOfLines = 1
         amountLabel.adjustsFontSizeToFitWidth = true
+        amountLabel.textAlignment = self.configuration.horizontalAlign
         return amountLabel
     }()
     lazy var hiddenTextField: UITextField = {
