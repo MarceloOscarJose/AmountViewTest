@@ -11,6 +11,8 @@
 		116D3BAA0DF437237845AF26FCE16E1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		1EB82B8ADB07C16B95E97A782F6DD070 /* Pods-AmountView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE2DBA8C25E09BAEDE32D76CA054DB7 /* Pods-AmountView_Example-dummy.m */; };
 		48A24B3BEBDDADE269625E12D5D4FD0C /* AmountView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B676C0DADFFB7DDE495B0310EC29746 /* AmountView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C4A9F6522D38EC70085E0FB /* AmountView+Behaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4A9F6422D38EC70085E0FB /* AmountView+Behaviour.swift */; };
+		9C4A9F6722D390D70085E0FB /* AmountView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4A9F6622D390D70085E0FB /* AmountView+Animations.swift */; };
 		A5D11909B9531523F43CA475AC38630F /* AmountView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C92EF2E69D3DBD8C070F24AE706631A /* AmountView-dummy.m */; };
 		DAFC81BB4B0A48657CDF78B81DA2133F /* AmountViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8FE4F0938D9DAC64DE1A3103C428EB /* AmountViewConfiguration.swift */; };
 		F7A1A721B2CAE5AB97A556F3E533714F /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C63EBCFB6AED7120EE63B925E5DD09 /* AmountView.swift */; };
@@ -29,7 +31,7 @@
 
 /* Begin PBXFileReference section */
 		08C0EAD2AB9418EB4249AD029961B96A /* AmountView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AmountView.xcconfig; sourceTree = "<group>"; };
-		228854A33048EE45038C778667FB233D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		228854A33048EE45038C778667FB233D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2387A12B6BA23441529705255D6E456C /* Pods-AmountView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AmountView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2C83EF68713B88E274EC9E40D4637368 /* AmountView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AmountView-Info.plist"; sourceTree = "<group>"; };
 		2EC99D71AE2614292632A60122F87942 /* AmountView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AmountView.modulemap; sourceTree = "<group>"; };
@@ -38,20 +40,22 @@
 		6C92EF2E69D3DBD8C070F24AE706631A /* AmountView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AmountView-dummy.m"; sourceTree = "<group>"; };
 		76C811CE97DEC6965AC0D00A6EB523A0 /* Pods-AmountView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmountView_Example-Info.plist"; sourceTree = "<group>"; };
 		87086E17D2ED24243A79638F5300C04A /* Pods-AmountView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmountView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		876B3FC517DC66901C6B322DC63B4EE2 /* AmountView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AmountView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		876B3FC517DC66901C6B322DC63B4EE2 /* AmountView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AmountView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8B676C0DADFFB7DDE495B0310EC29746 /* AmountView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AmountView-umbrella.h"; sourceTree = "<group>"; };
 		98CAE7835243E55E60702135BC281B04 /* AmountView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AmountView-prefix.pch"; sourceTree = "<group>"; };
+		9C4A9F6422D38EC70085E0FB /* AmountView+Behaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AmountView+Behaviour.swift"; path = "Pod/Classes/AmountView+Behaviour.swift"; sourceTree = "<group>"; };
+		9C4A9F6622D390D70085E0FB /* AmountView+Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AmountView+Animations.swift"; path = "Pod/Classes/AmountView+Animations.swift"; sourceTree = "<group>"; };
 		9D01C10CEEAE5B5246CEEEE7B2984B6A /* Pods-AmountView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmountView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A8C63EBCFB6AED7120EE63B925E5DD09 /* AmountView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AmountView.swift; path = Pod/Classes/AmountView.swift; sourceTree = "<group>"; };
 		B4A3CB82C3E20D1E8C6B03292E5CA076 /* Pods-AmountView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmountView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B671054E336AE883B6C01976CA918AB8 /* AmountView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AmountView.framework; path = AmountView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B671054E336AE883B6C01976CA918AB8 /* AmountView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AmountView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9120578DBB38D8D8AAD7B440A8C5D4 /* Pods-AmountView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AmountView_Example-umbrella.h"; sourceTree = "<group>"; };
-		D3D9C41BBF2699C61A979023BB2A0005 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D3D9C41BBF2699C61A979023BB2A0005 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DE8FE4F0938D9DAC64DE1A3103C428EB /* AmountViewConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AmountViewConfiguration.swift; path = Pod/Classes/AmountViewConfiguration.swift; sourceTree = "<group>"; };
 		EEE2DBA8C25E09BAEDE32D76CA054DB7 /* Pods-AmountView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AmountView_Example-dummy.m"; sourceTree = "<group>"; };
 		FA3F07BAF781017103FBDEFD839E94D1 /* Pods-AmountView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AmountView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FAFEE4F608FA568322E45917EB7E9F56 /* Pods_AmountView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AmountView_Example.framework; path = "Pods-AmountView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFEE4F608FA568322E45917EB7E9F56 /* Pods_AmountView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmountView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				A8C63EBCFB6AED7120EE63B925E5DD09 /* AmountView.swift */,
+				9C4A9F6422D38EC70085E0FB /* AmountView+Behaviour.swift */,
+				9C4A9F6622D390D70085E0FB /* AmountView+Animations.swift */,
 				DE8FE4F0938D9DAC64DE1A3103C428EB /* AmountViewConfiguration.swift */,
 				6FC9965DD93AA7EE73A2656988F064FC /* Pod */,
 				C3FB1AC615E005855B6007D0889C9B46 /* Support Files */,
@@ -287,9 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4A9F6522D38EC70085E0FB /* AmountView+Behaviour.swift in Sources */,
 				A5D11909B9531523F43CA475AC38630F /* AmountView-dummy.m in Sources */,
 				F7A1A721B2CAE5AB97A556F3E533714F /* AmountView.swift in Sources */,
 				DAFC81BB4B0A48657CDF78B81DA2133F /* AmountViewConfiguration.swift in Sources */,
+				9C4A9F6722D390D70085E0FB /* AmountView+Animations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,8 +409,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

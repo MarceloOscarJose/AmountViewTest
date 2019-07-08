@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AmountView
 
 class MainViewController: UIViewController {
 
@@ -29,6 +30,11 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.amountView.loadConfiguration(self.getConfigs())
     }
 
     func getConfigs() -> AmountViewConfiguration {
@@ -64,8 +70,8 @@ class MainViewController: UIViewController {
         return amountViewConfigurtion
     }
 
-    @objc func appleyChanges() {
-        self.amountView.loadConfiguration(configuration: self.getConfigs())
+    @IBAction func appleyChanges(_ sender: Any) {
+        self.amountView.loadConfiguration(self.getConfigs())
     }
 
     func hexStringToUIColor(hex: String) -> UIColor {

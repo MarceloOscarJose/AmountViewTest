@@ -207,6 +207,9 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Aplicar cambios"/>
+                                                <connections>
+                                                    <action selector="appleyChanges:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="txt-GR-5br"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
